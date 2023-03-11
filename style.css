@@ -2,6 +2,16 @@ html {
     height: 100%;
     width: 100%;
   }
+  body{
+    background: linear-gradient(90deg,#e66465, #9198e5, #85e3c7);
+  }
+  header{
+     
+     z-index: 2;
+  }
+  .mar{
+    margin-top: 9rem;
+  }
   .h1
   {
     font-family:cursive;

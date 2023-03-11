@@ -10,7 +10,7 @@ response.then((r) => {
 
 
     ihtml += `
-      <div class="card" style="width: 16rem;margin:8px;box-shadow:10px 5px 5px grey">
+      <div class="card " style="width: 16rem;margin:8px;box-shadow:10px 5px 5px grey">
       <img src="https://jsginc.com/wp-content/uploads/2018/10/bigstock-170353778.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"> ${jobs[item].name} </h5>
