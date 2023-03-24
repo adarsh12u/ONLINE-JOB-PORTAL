@@ -6,7 +6,7 @@ response.then((r) => {
 }).then((jobs) => {
   console.log(jobs)
   ihtml = ""
-  for (let item in jobs) {
+  for (let item=0;item<jobs.length;item++) {
 
 
     ihtml += `
